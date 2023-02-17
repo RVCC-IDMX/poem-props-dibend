@@ -1,1 +1,17 @@
 /* home */
+
+body {
+  background: repeating-radial-gradient(var(--yellow-6), var(--yellow-5) 20%);
+  background-attachment: fixed;
+  display: grid;
+  place-items:  center;
+}
+
+#jack {
+  width: 30vw;
+  border-radius: 5%;
+}
+
+a, a:visited {
+  color: var(--blue-7);
+}
