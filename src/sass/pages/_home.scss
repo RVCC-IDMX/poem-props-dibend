@@ -1,10 +1,13 @@
 /* home */
 
+@use "../base/typography" as type;
+
 body {
   background: repeating-radial-gradient(var(--yellow-6), var(--yellow-5) 20%);
   background-attachment: fixed;
   display: grid;
   place-items:  center;
+  font-family: type.$font;
 }
 
 #jack {
@@ -14,4 +17,8 @@ body {
 
 a, a:visited {
   color: var(--blue-7);
+}
+
+footer {
+  padding-bottom: 2rem;
 }

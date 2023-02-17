@@ -1,8 +1,13 @@
 /* typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100 900;
+  src: url('../fonts/Lato-Black.ttf') format('truetype');
+}
 
-$font: "Poppins", serif;
+$font: "Lato", serif;
 
 // body font styling vars
 $body-font-size: 120%;
