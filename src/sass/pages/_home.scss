@@ -24,3 +24,14 @@ body {
 .article__h1, .article__h3 {
   color: var(--gray-10);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: repeating-radial-gradient(var(--gray-12), var(--gray-9) 20%);
+    color: var(--yellow-6);
+  }
+
+  .article__h1, .article__h3 {
+    color: var(--yellow-5);
+  }
+}
