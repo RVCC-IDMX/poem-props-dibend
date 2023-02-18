@@ -9,13 +9,18 @@ body {
   place-items:  center;
   font-family: type.$font;
   padding: 2rem;
+  color: var(--gray-12);
 }
 
-#jack {
+.article__img {
   width: 30vw;
   border-radius: 5%;
 }
 
-a, a:visited {
+.footer__p__a, .footer__p__a:visited {
   color: var(--blue-7);
+}
+
+.article__h1, .article__h3 {
+  color: var(--gray-10);
 }
